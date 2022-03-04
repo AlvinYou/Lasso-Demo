@@ -68,8 +68,8 @@ const App: FC = () => {
 
       const handleCreatedPath = (e: any) => {
         const path: fabric.Path = e['path'];
-        // 생성된 path를 이용하여 polygon을 만들어 해당 영역에 덮어쓸 준비를 한다.
 
+        // 생성된 path를 이용하여 polygon을 만들어 해당 영역에 덮어쓸 준비를 한다.
         const polygon = new fabric.Polygon(
           path
             .path!.flat()
